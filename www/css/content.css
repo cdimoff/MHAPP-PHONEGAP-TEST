@@ -1,0 +1,102 @@
+.button-wrapper
+{
+	width: 660px;
+	margin-left: 20px;
+
+	-moz-box-shadow: inset 0 0 0px 8px #008A12;
+		-webkit-box-shadow: inset 0 0 0px 8px#008A12;
+		box-shadow: inner 0 0 0px 8px #008A12;
+}
+
+.button
+{
+	position: relative;
+	background-color: #008A12;
+	text-align: center;
+	height: 40px;
+}
+
+.button-label
+{
+	position: relative;
+	color: #FFFFFF;
+	font-size: 18px;
+	height: 20px;
+	width: 200px;
+	border-radius: 5px;
+	cursor: default;
+	font-family: "Verdana";
+	margin-left: auto;
+	margin-right: auto;
+	top: 12px;
+	text-align: center;
+}
+
+
+.button-bottom
+{
+	width: 100%;
+	height: 10px;
+	background-color: #008A12;
+}
+
+.hidden-content
+{
+	width: 90%;
+	display: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hidden-content-space
+{
+	height: 15px;
+}
+
+.button-inside
+{
+	position: relative;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: default;
+	font-family: "Verdana";
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #5DA667;
+	width: 100%;
+	margin-top: 15px;	
+}
+
+.text-inside
+{
+	position: relative;
+	color: #000000;
+	font-size: 14px;
+	cursor: default;
+	font-family: "Verdana";
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.button-inside-label
+{
+	
+}
+
+.text-inside
+{
+	
+}
+
+@media all and (max-width: 700px) 
+{
+	.button-wrapper
+	{
+		margin-right: auto;
+		margin-left: auto;
+		width: 95%;
+	}
+}

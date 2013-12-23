@@ -1,0 +1,21 @@
+.settings-menu
+{
+	position: absolute;
+	width: 70%;
+	height: 100%;
+	right: 0;
+	/*background-color: #002E06;*/
+	background-color: #353535;
+	display: none;
+}
+
+.settings-item
+{
+	position: relative;
+	width: 100%;
+}
+
+.screen-slide
+{
+	left: -70%;
+}
