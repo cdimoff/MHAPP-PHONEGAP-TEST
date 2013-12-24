@@ -1,11 +1,12 @@
 .settings-menu
 {
 	position: absolute;
-	width: 70%;
+	width: 90%;
 	height: 100%;
 	right: 0;
 	/*background-color: #002E06;*/
 	background-color: #353535;
+	
 	display: none;
 }
 
@@ -17,5 +18,5 @@
 
 .screen-slide
 {
-	left: -70%;
+	left: -90%;
 }
