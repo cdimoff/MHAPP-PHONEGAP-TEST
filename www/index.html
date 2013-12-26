@@ -23,8 +23,12 @@
 	
 	<!-- Header Bar -->
 	<div class="screen">	
+		
 		<div class="header-bar">
+			<div class="arrow-left">
+			</div>
 			<div class="header-bar-gloss">
+				
 			</div>
 			<div class="header-bar-settings">
 				<div class="menuIcon" style="margin-top: 9px;">
@@ -35,7 +39,7 @@
 				</div>
 			</div>
 			<div class="header-bar-logo">
-				<img src="img/logo.png" width="100%" height="100%">
+				<a href="index.html"><img src="img/logo.png" width="100%" height="100%"></a>
 			</div>
 	
 			<div class="header-bar-border">
@@ -43,23 +47,25 @@
 		</div>
 		
 		<!-- Content -->
+		
+		<h1 id="green-header-top-home"> Mental Health Awarness App- The MHAPP</h1>
 
 		<div class="button-wrapper">
-			<div class="button">
-				<div class="button-label">
+			<div class="button" id="green-home">
+				<div class="button-label-home">
 					<p>Introduction</p>
 				</div>
 			</div>
 			<div class="hidden-content">
 				<!-- Chris, put content here -->
 				
-				<a href="overview.html"><div class="button-inside">
+				<a href="overview.html"><div class="button-inside" id="green">
 						<p>Overview</p>
 				</div></a>
-				<a href="objectives.html"><div class="button-inside">
+				<a href="objectives.html"><div class="button-inside" id="green">
 						<p>Objectives</p>
 				</div></a>
-				<a href="leader.html"><div class="button-inside">
+				<a href="leader.html"><div class="button-inside" id="green">
 						<p>Your Role as a Leader</p>
 				</div></a>
 				<!-- Chris put content above here-->
@@ -69,9 +75,10 @@
 			<div class="button-bottom">
 			</div>
 		</div>
-		<div class="button-wrapper">
-			<div class="button">
-				<div class="button-label-2lines">
+		
+		<div class="button-wrapper-pink">
+			<div class="button" id="pink-home">
+				<div class="button-label-2lines-home">
 					<p>Workplace Mental Health<br /> Important Info</p>
 				</div>
 				
@@ -79,15 +86,15 @@
 			<div class="hidden-content">
 				<!-- Chris, put content here -->
 				
-				<a href="genMHI.html"><div class="button-inside">
+				<a href="genMHI.html"><div class="button-inside" id="pink">
 						<p>General Mental Health Information</p>
 				</div></a>
 				
-				<a href ="workplaceMH.html"><div class="button-inside">
+				<a href ="workplaceMH.html"><div class="button-inside" id="pink">
 						<p>Workplace Mental Health</p>
 				</div></a>
 				
-				<a href="commonWPMHproblems.html"><div class="button-inside">
+				<a href="commonWPMHproblems.html"><div class="button-inside" id="pink">
 						<p>Common Workplace Mental Health Problems</p>
 				</div></a>
 				<!-- Chris put content above here-->
@@ -96,32 +103,59 @@
 			</div>
 			<div class="button-bottom">
 			</div>
+		
+		
 		</div>
-		<div class="button-wrapper">
-			<div class="button">
-				<div class="button-label">
+		<div class="button-wrapper-toolkit" >
+			<div class="button" id="toolkit-home">
+				<div class="button-label-home">
 					<p>Workplace Toolkit</p>
 				</div>
 				
 			</div>
-			<div class="hidden-content">
+			<div class="hidden-content" >
 				<!-- Chris, put content here -->
 				
-				<div class="button-inside">
-						<p>Sub Option 5</p>
-				</div>
-				<div class="button-inside">
-						<p>Sub Option 6</p>
-				</div>
+				<a href="preventMHproblems.html"><div class="button-inside" id="toolkit">
+						<p>Preventing Mental Health Problems</p>
+				</div></a>
+				<a href="maintaining.html"><div class="button-inside" id="toolkit">
+						<p>Maintaining a Happy, Healthy, and Productive Workforce</p>
+				</div></a>
+				<a href="warningsigns.html"><div class="button-inside" id="toolkit">
+						<p>Warning Signs of a Mental Health Problem</p>
+				</div></a>
+				<a href="nowwhat.html"><div class="button-inside" id="toolkit">
+						<p>You See the Warning Signs-Now What?</p>
+				</div></a>
+				<a href="approach.html"><div class="button-inside" id="toolkit">
+						<p>How to Approach Employees: A Tip Sheet</p>
+				</div></a>
+				<a href="failing.html"><div class="button-inside" id="toolkit">
+						<p>Failing to Approach Employees: The Consequences</p>
+				</div></a>
+				<a href="yourteam.html"><div class="button-inside" id="toolkit">
+						<p>Your Team: How to Deal with Other Employees</p>
+				</div></a>
+				<a href="resources.html"><div class="button-inside" id="toolkit">
+						<p>Resources</p>
+				</div></a>
+				
+				
 				<!-- Chris put content above here-->
 				<div class="hidden-content-space">
 				</div>
 			</div>
-			<div class="button-bottom">
+			<div class="button-bottom-toolkit">
 			</div>
 		</div>
+		
+		
 	
 	</div>
+	
+	
+	
 	
 	<!-- Settings Menu  -->
 	<div class="settings-menu">
@@ -200,6 +234,8 @@
 		
 		
 	</div> <!-- closing setting-bar div-->
+	
+
 	
 	<script>
 		$(".header-bar-settings").click(function() 

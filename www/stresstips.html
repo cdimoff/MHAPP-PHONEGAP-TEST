@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>MHAT | Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	
+	<!-- !CSS -->
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/content.css" />
+	<link rel="stylesheet" href="css/settings.css" />
+	
+	<script src="js/jquery-1.9.1.js"></script>
+	
+	
+</head>
+
+
+
+<body>
+	
+	<!-- Header Bar -->
+	<div class="screen">	
+		<div class="header-bar">
+			<div class="header-bar-gloss">
+			</div>
+			<div class="header-bar-settings">
+				<div class="menuIcon" style="margin-top: 9px;">
+				</div>
+				<div class="menuIcon">
+				</div>
+				<div class="menuIcon">
+				</div>
+			</div>
+			<div class="header-bar-logo">
+				<img src="img/logo.png" width="100%" height="100%">
+			</div>
+	
+			<div class="header-bar-border">
+			</div>
+		</div>
+		
+		
+		<!-- CONTENT GOES BELOW -->
+		
+		<h1 id="black-header-top">Tips for Preventing Stress</h1>
+		
+		<div class="blackline"></div>
+		
+		<h2 id="black-header">General Tips</h2>
+		
+		<ul id="black-border">
+			<li>Recognize warning signs of excessive stress at work (See "Stress Warning Signs")</li>
+			<li>Give employees the opportunity to participate in decisions that impact them</li>
+			<li>Establish and enforce a zero-tolerance policy for harassment and bullying</li>
+			<li>Provide opportunities for social interaction among employees</li>
+			<li>Break projects into smaller steps to make them seem less daunting and more manageable</li>
+			<li>Look for humor in stressful situations at work</li>
+			
+		</ul>
+		
+	
+		
+		 <!-- Expanding Button Start -->
+		<div class="button-wrapper-black">
+			<div class="button" id="black">
+				<div class="button-label">
+					<p>Be aware of the common causes of workplace stress (Expanding)</p>
+				</div>
+			</div>
+			<div class="hidden-content">
+				<!-- Chris, put content here -->
+				
+				<ul>
+					<li>Fear of being laid off</li>
+					<li>Downsizing and overtime</li>
+					<li>Pressure to perform at optimal levels at all times</li>
+				</ul>
+				
+				
+				<!-- Chris put content above here-->
+				<div class="hidden-content-space">
+				</div>
+			</div>
+			<div class="button-bottom">
+			</div>
+		</div>
+		<!--Expanding Button End -->
+		
+	 <!-- Expanding Button Start -->
+	<div class="button-wrapper-black">
+		<div class="button" id="black">
+			<div class="button-label-2lines">
+				<p>Improve communication between yourself and your employees (Expanding)</p>
+			</div>
+		</div>
+		<div class="hidden-content">
+			<!-- Chris, put content here -->
+			
+			<ul>
+				<li>Share information with employees to reduce uncertainty</li>
+				<li>Define employees' roles and responbilities</li>
+				<li>Make communication friendly and efficient, not mean-spirited or argumentative</li>
+			</ul>
+			
+			
+			<!-- Chris put content above here-->
+			<div class="hidden-content-space">
+			</div>
+		</div>
+		<div class="button-bottom">
+		</div>
+	</div>
+	<!--Expanding Button End -->
+	
+
+	
+	
+	
+ <!-- Expanding Button Start -->
+<div class="button-wrapper-black">
+	<div class="button" id="black">
+		<div class="button-label">
+			<p>Take care of yourself (Expanding)</p>
+		</div>
+	</div>
+	<div class="hidden-content">
+		<!-- Chris, put content here -->
+		
+		<ul>
+			<li><strong>Exercise</strong>-Try to get 30 minutes of activity each day</li>
+			<li><strong>Eat Healthy</strong>-Eat small, but frequent meals throughout the day</li>
+			<li><strong>Sleep</strong>-Try to get 7-8 hours of restful sleep each night</li>
+			<li>Drink alcohol in moderation and avoid nicotine</li>
+		</ul>
+		
+		
+		<!-- Chris put content above here-->
+		<div class="hidden-content-space">
+		</div>
+	</div>
+	<div class="button-bottom">
+	</div>
+</div>
+<!--Expanding Button End -->
+
+ <!-- Expanding Button Start -->
+<div class="button-wrapper-black">
+	<div class="button" id="black">
+		<div class="button-label-2lines">
+			<p>Prioritize and organizes your responsibilities-both at home and at work (Expanding)</p>
+		</div>
+	</div>
+	<div class="hidden-content">
+		<!-- Chris, put content here -->
+		
+		<ul>
+			<li>Create a balanced schedule-All work and no play is a recipe for burnout</li>
+			<li>Don't over-commit yourself-Avoid scheduling things back to back</li>
+			<li>Plan regular breaks-5 to 15 minutes</li>
+		</ul>
+		
+		<div class="hidden-content-space">
+		</div>
+	</div>
+	<div class="button-bottom">
+	</div>
+</div>
+<!--Expanding Button End -->
+
+
+
+
+<div class="blackline"></div>
+
+<a href ="stresswarningsigns.html"><div class="button-bottom-page-black">
+ <p> Stress Warning Signs </p>
+</div></a>
+
+<a href ="preventiontips.html"><div class="button-bottom-page-black">
+ <p> Tips for Preventing Mental Health Problems </p>
+</div></a>
+
+
+<a href ="maintaining.html"><div class="button-bottom-page-toolkit">
+ <p> Maintain a Happy, Healthy, and Productive Workforce</p>
+</div></a>
+
+
+
+
+		
+		<!-- END CONTENT -->
+		
+		</div>
+		
+			<script>
+				$(".header-bar-settings").click(function() 
+				{
+					if ($(".settings-menu").is(':visible')) 
+					{
+						$(".screen").removeClass("screen-slide");
+						$(".settings-menu").hide();
+					}
+					else
+					{
+						$(".screen").addClass("screen-slide");
+						$(".settings-menu").show();
+					}
+			
+				});
+		
+				$(".button").click(function() 
+				{
+					var elem = $(this).parent().find(".hidden-content");
+					if (elem.is(":hidden"))
+							{
+								$(".hidden-content").slideUp();
+								elem.slideDown();
+							}
+							else
+							{
+								elem.slideUp();
+							}
+				});
+		
+		
+		
+			</script>
+		
+	
+</body>
+
+</html>

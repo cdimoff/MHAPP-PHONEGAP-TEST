@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>MHAT | Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	
+	<!-- !CSS -->
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/content.css" />
+	<link rel="stylesheet" href="css/settings.css" />
+	
+	<script src="js/jquery-1.9.1.js"></script>
+	
+	
+</head>
+
+
+
+<body>
+	
+	<!-- Header Bar -->
+	<div class="screen">	
+		<div class="header-bar">
+			<div class="header-bar-gloss">
+			</div>
+			<div class="header-bar-settings">
+				<div class="menuIcon" style="margin-top: 9px;">
+				</div>
+				<div class="menuIcon">
+				</div>
+				<div class="menuIcon">
+				</div>
+			</div>
+			<div class="header-bar-logo">
+				<img src="img/logo.png" width="100%" height="100%">
+			</div>
+	
+			<div class="header-bar-border">
+			</div>
+		</div>
+		
+		
+		<!-- CONTENT GOES BELOW -->
+		
+		<!-- BLACK TOP TITLE -->
+
+			<h1 id="black-header-top">Return to Work Plan</h1>
+
+		
+		
+		
+		<!-- BLACK SUB-HEADER -->
+			<h2 id="black-header">When an employee is returning to work after being on disability leave: </h2>
+			
+			<!-- Bordered List Start -->
+	  
+				  <ul id="black-border">
+					  <li>DO communicate with the employee while he or she is away</li>
+					  <li>DO communicate with the employee about accommodations upon return </li>
+					  <li>DO ask the employee which accommodations might work best</li>
+					  <li>
+						  DO communicate with HR to develop the most appropriate accommodation plan
+						  <ul>
+							  <li>Remember, you and your employee know the work and the workplace best</li>
+						  </ul>
+					  </li>
+					  <li>
+						  DO schedule a conversation with the employee before he/she returns to the workplace
+						  <ul>
+							  <li>Update him or her on work developments and social life</li>
+						  </ul>
+					  </li>
+					  <li>
+						  DO follow-up with the employee after he/she has returned to the workplace 
+						  <ul>
+							  <li>A 2-week, 4 week, and 6 week follow-up is best</li>
+						  </ul>
+					  </li>
+					  <li>DO make expectations and work roles clear when the employee returns to work</li>
+					  <li>DO re-evaluate the return-to-work plan to make sure it's working</li>
+					  <li>DO be patient with your employee and everyone else involved </li>
+					  <li>DO be a role  model-welcome the employee and take action against stigma</li>
+					  <li>DO set and re-visit goals with the employees</li>
+		  
+				  </ul>
+				  <!-- Bordered List End -->
+				<!-- BLACK LINE -->
+
+					<div class="blackline"></div>  
+				
+				
+				  <!-- BLACK LINK BUTTON -->
+	  
+				  		<a href="disabilityleave.html"><div class="button-bottom-page-black">
+				  			<p> Disability Leave</p>	
+				  		</div></a>
+						
+					
+		
+		<!-- END CONTENT -->
+		
+		</div>
+		
+			<script>
+				$(".header-bar-settings").click(function() 
+				{
+					if ($(".settings-menu").is(':visible')) 
+					{
+						$(".screen").removeClass("screen-slide");
+						$(".settings-menu").hide();
+					}
+					else
+					{
+						$(".screen").addClass("screen-slide");
+						$(".settings-menu").show();
+					}
+			
+				});
+		
+				$(".button").click(function() 
+				{
+					var elem = $(this).parent().find(".hidden-content");
+					if (elem.is(":hidden"))
+							{
+								$(".hidden-content").slideUp();
+								elem.slideDown();
+							}
+							else
+							{
+								elem.slideUp();
+							}
+				});
+		
+		
+		
+			</script>
+		
+	
+</body>
+
+</html>
