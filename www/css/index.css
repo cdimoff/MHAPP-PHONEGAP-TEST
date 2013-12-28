@@ -2,14 +2,16 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background-color: #93D89C;
-	
+	/*background-color: #93D89C;*/
+	background-image:url('../img/greybackground2.png');
+ 
 }
 
 .screen
 {
 	position: absolute;
 	width: 100%;
+	
 }
 
 
