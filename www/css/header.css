@@ -15,6 +15,7 @@
 	width:100%;
     z-index:100;
 
+
 }
 
 .fixedfooter {
@@ -60,6 +61,15 @@
 }
 
 .header-bar-gloss
+{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	background-color: #FFFFFF;
+	opacity: 0.075;
+}
+
+.footer-bar-gloss
 {
 	position: absolute;
 	height: 50%;
