@@ -3,10 +3,10 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.MHAT.MHAP109"
-        version   = "1.0.9">
+        id        = "com.MHAT.MHAP10"
+        version   = "1.0.10">
 
-    <name>MHAP 9</name>
+    <name>MHAP 10</name>
 
     <description>
         Mental Health Awareness Training App
