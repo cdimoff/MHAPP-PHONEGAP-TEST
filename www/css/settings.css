@@ -4,8 +4,10 @@
 	width: 90%;
 	height: 240%;
 	right: 0;
-	/*background-color: #002E06;*/
-	background-color: #353535;
+
+	/*background-color: #353535;*/
+	background-image:url('../img/greybackground3.png');
+	
 	
 	display: none;
 }
@@ -20,3 +22,4 @@
 {
 	left: -90%;
 }
+
