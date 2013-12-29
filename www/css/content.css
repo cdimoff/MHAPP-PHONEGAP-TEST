@@ -166,6 +166,7 @@ a div {
 	margin-left: 10px;
 	border-radius:10px;
 	margin-right:10px;
+	margin-top:5px;
 	
 	
 	background: rgb(37,141,200); /* Old browsers */
@@ -202,19 +203,13 @@ a div {
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 15px;
-	color:white;
+	color:black;
 	font-size: 22px;
 	display: block;
-	border-radius:10px;
-	background: rgb(37,141,200); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(37,141,200,1) 21%, rgba(0,102,153,1) 69%, rgba(0,102,153,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(37,141,200,1)), color-stop(21%,rgba(37,141,200,1)), color-stop(69%,rgba(0,102,153,1)), color-stop(100%,rgba(0,102,153,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 21%,rgba(0,102,153,1) 69%,rgba(0,102,153,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 21%,rgba(0,102,153,1) 69%,rgba(0,102,153,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 21%,rgba(0,102,153,1) 69%,rgba(0,102,153,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 21%,rgba(0,102,153,1) 69%,rgba(0,102,153,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#006699',GradientType=0 ); /* IE6-9 */	
+	background-color:white;
+	border: solid 12px rgb(37,141,200);
 	
+		
 }
 
 .button-bottom-page-black {
@@ -225,20 +220,12 @@ a div {
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 15px;
-	color:white;
+	color:black;
 	font-size: 22px;
 	display: block;
-	border-radius:10px;
+	border: solid 12px black;
 	
-	background: #45484d; /* Old browsers */
-	background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #45484d 0%,#000000 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #45484d 0%,#000000 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-	
+	background-color:white;	
 }
 
 .button-bottom-page-pink {
@@ -249,19 +236,14 @@ a div {
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 15px;
-	color:white;
+	color:black;
 	font-size: 22px;
 	display: block;
-	border-radius:10px;
+	border: solid 12px rgb(191,133,198);
 	
-	background: rgb(191,133,198); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(191,133,198,1) 1%, rgba(191,133,198,1) 18%, rgba(153,102,153,1) 64%, rgba(153,102,153,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(191,133,198,1)), color-stop(18%,rgba(191,133,198,1)), color-stop(64%,rgba(153,102,153,1)), color-stop(100%,rgba(153,102,153,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(191,133,198,1) 1%,rgba(191,133,198,1) 18%,rgba(153,102,153,1) 64%,rgba(153,102,153,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(191,133,198,1) 1%,rgba(191,133,198,1) 18%,rgba(153,102,153,1) 64%,rgba(153,102,153,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(191,133,198,1) 1%,rgba(191,133,198,1) 18%,rgba(153,102,153,1) 64%,rgba(153,102,153,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(191,133,198,1) 1%,rgba(191,133,198,1) 18%,rgba(153,102,153,1) 64%,rgba(153,102,153,1) 100%); /* W3C */
+	background-color:white;	
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf85c6', endColorstr='#996699',GradientType=0 ); /* IE6-9 */
+
 }
 
 
@@ -414,6 +396,7 @@ a div {
 	margin-left: 10px;
 	border-radius:10px;
 	margin-right:10px;
+	margin-top:5px;
 
 	
 	
@@ -437,6 +420,7 @@ a div {
 	margin-left: 10px;
 	border-radius:10px;
 	margin-right:10px;
+	margin-bottom:5px;
 	
 	
 	background: rgb(71,204,95); /* Old browsers */
@@ -481,6 +465,7 @@ a div {
 	margin-left: 10px;
 	border-radius:10px;
 	margin-right:10px;
+	margin-bottom:5px;
 	
 	
 	

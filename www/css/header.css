@@ -43,11 +43,31 @@
 	border-bottom: 20px solid transparent; 
 	border-right:20px solid black; 
 	float: left;
-	margin: 10px;
-	clear:both;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+
+	display:inline-block;
 	
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-left:20px solid black; 
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
 
 
+	display:inline-block;
+	
+	
+	
+	
 }
 
 
@@ -127,6 +147,12 @@
 	margin-top: 7px;
 }
 
+.footer-button-wrapper {
+	width:30%;
+	margin-left:10%;
+	
+}
+
 @media all and (max-width: 699px) {
 	.header-bar-logo
 	{
@@ -134,5 +160,5 @@
 		margin-left: auto;
 	}
 	
-	.
+	
 }
